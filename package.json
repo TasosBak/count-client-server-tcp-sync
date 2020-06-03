@@ -1,0 +1,15 @@
+{
+  "name": "Count-client-server-tcp-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "javac CountClientTCP.java && javac MultithreadedCountServerTCP.java",
+    "st1": "java MultithreadedCountServerTCP",
+    "st2": "java CountClientTCP"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
